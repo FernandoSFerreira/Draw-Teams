@@ -1,0 +1,25 @@
+# FROM node:alpine as build-host
+# WORKDIR /usr/src/app
+# COPY package.json package-lock.json ./
+# RUN npm install
+# COPY . ./
+# RUN npm run build && ls -l /usr/src/app/build
+
+# FROM nginx:1.17.2-alpine as prod
+# COPY --from=build-host /usr/src/app/build /usr/share/nginx/html
+# RUN rm -rf /etc/nginx/conf.d
+# COPY conf /etc/nginx
+# EXPOSE 3000
+# CMD ["nginx", "-g", "daemon off;"]
+
+FROM node:alpine
+WORKDIR /app
+COPY package.json ./
+COPY package-lock.json ./
+COPY ./ ./
+RUN npm install
+# RUN npm run build
+# RUN ls
+# COPY -a dist/. public/
+EXPOSE 3000
+CMD ["npm", "run", "dev"]

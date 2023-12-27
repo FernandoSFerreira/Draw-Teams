@@ -1,0 +1,675 @@
+
+2022/10/05 21:17:07 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:27
+2022/10/05 21:17:08 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:27
+2022/10/05 21:17:09 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:27
+2022/10/05 21:17:10 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:27
+2022/10/05 21:17:11 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:27
+2022/10/05 21:17:13 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:27
+2022/10/05 21:17:17 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:27
+2022/10/05 21:17:24 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:27
+2022/10/05 21:17:37 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:27
+2022/10/05 21:18:03 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:27
+2022/10/05 21:18:55 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:27
+2022/10/05 21:19:56 [notice] 1#1: using the "epoll" event method
+2022/10/05 21:19:56 [notice] 1#1: nginx/1.23.1
+2022/10/05 21:19:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/05 21:19:56 [notice] 1#1: OS: Linux 5.15.57.1-microsoft-standard-WSL2
+2022/10/05 21:19:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/05 21:19:56 [notice] 1#1: start worker processes
+2022/10/05 21:19:56 [notice] 1#1: start worker process 30
+2022/10/05 21:19:56 [notice] 1#1: start worker process 31
+2022/10/05 21:19:56 [notice] 1#1: start worker process 32
+2022/10/05 21:19:56 [notice] 1#1: start worker process 33
+2022/10/05 21:19:56 [notice] 1#1: start worker process 34
+2022/10/05 21:19:56 [notice] 1#1: start worker process 35
+2022/10/05 21:19:56 [notice] 1#1: start worker process 36
+2022/10/05 21:19:56 [notice] 1#1: start worker process 37
+2022/10/05 21:19:56 [notice] 1#1: start worker process 38
+2022/10/05 21:19:56 [notice] 1#1: start worker process 39
+2022/10/05 21:19:56 [notice] 1#1: start worker process 40
+2022/10/05 21:19:56 [notice] 1#1: start worker process 41
+2022/10/05 21:19:56 [notice] 1#1: start worker process 42
+2022/10/05 21:19:56 [notice] 1#1: start worker process 43
+2022/10/05 21:19:56 [notice] 1#1: start worker process 44
+2022/10/05 21:19:56 [notice] 1#1: start worker process 45
+2022/10/06 03:24:48 [error] 36#36: *12 FastCGI sent in stderr: "PHP message: [2022-10-06 03:24:48] production.ERROR: could not find driver {"exception":"[object] (Doctrine\\DBAL\\Driver\\PDO\\Exception(code: 0): could not find driver at /var/www/html/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDO/Exception.php:18, PDOException(code: 0): could not find driver at /var/www/html/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40)"} []PHP message: [2022-10-06 03:24:48] production.ERROR: could not find driver (SQL: select * from `users` where `email` = logiccontrols@kitchengous.com and `users`.`deleted_at` is null limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): could not find driver (SQL: select * from `users` where `email` = logiccontrols@kitchengous.com and `users`.`deleted_at` is null limit 1) at /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:664, Doctrine\\DBAL\\Driver\\PDO\\Exception(code: 0): could not find driver at /var/www/html/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDO/Exception.php:18, PDOException(code: 0): could not find driver at /var/www/html/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40)"} []" while reading response header from upstream, client: 172.26.0.1, server: localhost7, request: "POST /login HTTP/1.1", upstream: "fastcgi://172.26.0.3:9000", host: "localhost:8450", referrer: "http://localhost:8450/login"
+2022/10/06 04:22:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/06 04:22:23 [notice] 36#36: gracefully shutting down
+2022/10/06 04:22:23 [notice] 37#37: gracefully shutting down
+2022/10/06 04:22:23 [notice] 45#45: gracefully shutting down
+2022/10/06 04:22:23 [notice] 38#38: gracefully shutting down
+2022/10/06 04:22:23 [notice] 30#30: gracefully shutting down
+2022/10/06 04:22:23 [notice] 32#32: gracefully shutting down
+2022/10/06 04:22:23 [notice] 38#38: exiting
+2022/10/06 04:22:23 [notice] 33#33: gracefully shutting down
+2022/10/06 04:22:23 [notice] 31#31: gracefully shutting down
+2022/10/06 04:22:23 [notice] 32#32: exiting
+2022/10/06 04:22:23 [notice] 34#34: gracefully shutting down
+2022/10/06 04:22:23 [notice] 35#35: gracefully shutting down
+2022/10/06 04:22:23 [notice] 39#39: gracefully shutting down
+2022/10/06 04:22:23 [notice] 40#40: gracefully shutting down
+2022/10/06 04:22:23 [notice] 41#41: gracefully shutting down
+2022/10/06 04:22:23 [notice] 42#42: gracefully shutting down
+2022/10/06 04:22:23 [notice] 36#36: exiting
+2022/10/06 04:22:23 [notice] 43#43: gracefully shutting down
+2022/10/06 04:22:23 [notice] 44#44: gracefully shutting down
+2022/10/06 04:22:23 [notice] 37#37: exiting
+2022/10/06 04:22:23 [notice] 45#45: exiting
+2022/10/06 04:22:23 [notice] 30#30: exiting
+2022/10/06 04:22:23 [notice] 38#38: exit
+2022/10/06 04:22:23 [notice] 32#32: exit
+2022/10/06 04:22:23 [notice] 33#33: exiting
+2022/10/06 04:22:23 [notice] 31#31: exiting
+2022/10/06 04:22:23 [notice] 33#33: exit
+2022/10/06 04:22:23 [notice] 39#39: exiting
+2022/10/06 04:22:23 [notice] 35#35: exiting
+2022/10/06 04:22:23 [notice] 34#34: exiting
+2022/10/06 04:22:23 [notice] 40#40: exiting
+2022/10/06 04:22:23 [notice] 41#41: exiting
+2022/10/06 04:22:23 [notice] 36#36: exit
+2022/10/06 04:22:23 [notice] 42#42: exiting
+2022/10/06 04:22:23 [notice] 37#37: exit
+2022/10/06 04:22:23 [notice] 42#42: exit
+2022/10/06 04:22:23 [notice] 43#43: exiting
+2022/10/06 04:22:23 [notice] 45#45: exit
+2022/10/06 04:22:23 [notice] 44#44: exiting
+2022/10/06 04:22:23 [notice] 30#30: exit
+2022/10/06 04:22:23 [notice] 31#31: exit
+2022/10/06 04:22:23 [notice] 39#39: exit
+2022/10/06 04:22:23 [notice] 35#35: exit
+2022/10/06 04:22:23 [notice] 34#34: exit
+2022/10/06 04:22:23 [notice] 40#40: exit
+2022/10/06 04:22:23 [notice] 41#41: exit
+2022/10/06 04:22:23 [notice] 43#43: exit
+2022/10/06 04:22:23 [notice] 44#44: exit
+2022/10/06 04:22:23 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/10/06 04:22:23 [notice] 1#1: worker process 34 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 04:22:23 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2022/10/06 04:22:23 [notice] 1#1: worker process 30 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: worker process 35 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: worker process 36 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: worker process 38 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: worker process 39 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: worker process 41 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: worker process 42 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: worker process 43 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: worker process 44 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: worker process 45 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 04:22:23 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2022/10/06 04:22:23 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2022/10/06 04:22:23 [notice] 1#1: worker process 33 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: worker process 40 exited with code 0
+2022/10/06 04:22:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 04:22:24 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/10/06 04:22:24 [notice] 1#1: worker process 31 exited with code 0
+2022/10/06 04:22:24 [notice] 1#1: worker process 32 exited with code 0
+2022/10/06 04:22:24 [notice] 1#1: worker process 37 exited with code 0
+2022/10/06 04:22:24 [notice] 1#1: exit
+2022/10/06 04:22:25 [notice] 1#1: using the "epoll" event method
+2022/10/06 04:22:25 [notice] 1#1: nginx/1.23.1
+2022/10/06 04:22:25 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/06 04:22:25 [notice] 1#1: OS: Linux 5.15.57.1-microsoft-standard-WSL2
+2022/10/06 04:22:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/06 04:22:25 [notice] 1#1: start worker processes
+2022/10/06 04:22:25 [notice] 1#1: start worker process 30
+2022/10/06 04:22:25 [notice] 1#1: start worker process 31
+2022/10/06 04:22:25 [notice] 1#1: start worker process 32
+2022/10/06 04:22:25 [notice] 1#1: start worker process 33
+2022/10/06 04:22:25 [notice] 1#1: start worker process 34
+2022/10/06 04:22:25 [notice] 1#1: start worker process 35
+2022/10/06 04:22:25 [notice] 1#1: start worker process 36
+2022/10/06 04:22:25 [notice] 1#1: start worker process 37
+2022/10/06 04:22:25 [notice] 1#1: start worker process 38
+2022/10/06 04:22:25 [notice] 1#1: start worker process 39
+2022/10/06 04:22:25 [notice] 1#1: start worker process 40
+2022/10/06 04:22:25 [notice] 1#1: start worker process 41
+2022/10/06 04:22:25 [notice] 1#1: start worker process 42
+2022/10/06 04:22:25 [notice] 1#1: start worker process 43
+2022/10/06 04:22:25 [notice] 1#1: start worker process 44
+2022/10/06 04:22:25 [notice] 1#1: start worker process 45
+2022/10/06 04:22:56 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: [2022-10-06 04:22:55] production.ERROR: could not find driver {"exception":"[object] (Doctrine\\DBAL\\Driver\\PDO\\Exception(code: 0): could not find driver at /var/www/html/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDO/Exception.php:18, PDOException(code: 0): could not find driver at /var/www/html/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40)"} []PHP message: [2022-10-06 04:22:55] production.ERROR: could not find driver (SQL: select * from `users` where `email` = logiccontrols@kitchengous.com and `users`.`deleted_at` is null limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): could not find driver (SQL: select * from `users` where `email` = logiccontrols@kitchengous.com and `users`.`deleted_at` is null limit 1) at /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:664, Doctrine\\DBAL\\Driver\\PDO\\Exception(code: 0): could not find driver at /var/www/html/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDO/Exception.php:18, PDOException(code: 0): could not find driver at /var/www/html/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40)"} []" while reading response header from upstream, client: 172.26.0.1, server: localhost7, request: "POST /login HTTP/1.1", upstream: "fastcgi://172.26.0.4:9000", host: "localhost:8450", referrer: "http://localhost:8450/login"
+2022/10/06 04:30:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/06 04:30:02 [notice] 30#30: gracefully shutting down
+2022/10/06 04:30:02 [notice] 32#32: gracefully shutting down
+2022/10/06 04:30:02 [notice] 31#31: gracefully shutting down
+2022/10/06 04:30:02 [notice] 33#33: gracefully shutting down
+2022/10/06 04:30:02 [notice] 34#34: gracefully shutting down
+2022/10/06 04:30:02 [notice] 35#35: gracefully shutting down
+2022/10/06 04:30:02 [notice] 37#37: gracefully shutting down
+2022/10/06 04:30:02 [notice] 38#38: gracefully shutting down
+2022/10/06 04:30:02 [notice] 39#39: gracefully shutting down
+2022/10/06 04:30:02 [notice] 40#40: gracefully shutting down
+2022/10/06 04:30:02 [notice] 40#40: exiting
+2022/10/06 04:30:02 [notice] 36#36: gracefully shutting down
+2022/10/06 04:30:02 [notice] 41#41: gracefully shutting down
+2022/10/06 04:30:02 [notice] 42#42: gracefully shutting down
+2022/10/06 04:30:02 [notice] 43#43: gracefully shutting down
+2022/10/06 04:30:02 [notice] 45#45: gracefully shutting down
+2022/10/06 04:30:02 [notice] 44#44: gracefully shutting down
+2022/10/06 04:30:02 [notice] 30#30: exiting
+2022/10/06 04:30:02 [notice] 32#32: exiting
+2022/10/06 04:30:02 [notice] 31#31: exiting
+2022/10/06 04:30:02 [notice] 33#33: exiting
+2022/10/06 04:30:02 [notice] 34#34: exiting
+2022/10/06 04:30:02 [notice] 35#35: exiting
+2022/10/06 04:30:02 [notice] 37#37: exiting
+2022/10/06 04:30:02 [notice] 38#38: exiting
+2022/10/06 04:30:02 [notice] 39#39: exiting
+2022/10/06 04:30:02 [notice] 40#40: exit
+2022/10/06 04:30:02 [notice] 36#36: exiting
+2022/10/06 04:30:02 [notice] 41#41: exiting
+2022/10/06 04:30:02 [notice] 42#42: exiting
+2022/10/06 04:30:02 [notice] 43#43: exiting
+2022/10/06 04:30:02 [notice] 45#45: exiting
+2022/10/06 04:30:02 [notice] 44#44: exiting
+2022/10/06 04:30:02 [notice] 30#30: exit
+2022/10/06 04:30:02 [notice] 32#32: exit
+2022/10/06 04:30:02 [notice] 31#31: exit
+2022/10/06 04:30:02 [notice] 33#33: exit
+2022/10/06 04:30:02 [notice] 34#34: exit
+2022/10/06 04:30:02 [notice] 35#35: exit
+2022/10/06 04:30:02 [notice] 37#37: exit
+2022/10/06 04:30:02 [notice] 38#38: exit
+2022/10/06 04:30:02 [notice] 39#39: exit
+2022/10/06 04:30:02 [notice] 36#36: exit
+2022/10/06 04:30:02 [notice] 41#41: exit
+2022/10/06 04:30:02 [notice] 42#42: exit
+2022/10/06 04:30:02 [notice] 43#43: exit
+2022/10/06 04:30:02 [notice] 45#45: exit
+2022/10/06 04:30:02 [notice] 44#44: exit
+2022/10/06 04:30:03 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/10/06 04:30:03 [notice] 1#1: worker process 30 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 31 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 32 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 33 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 34 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 35 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 37 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 39 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 40 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 41 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 42 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 43 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 44 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: worker process 45 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 04:30:03 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2022/10/06 04:30:03 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2022/10/06 04:30:03 [notice] 1#1: worker process 38 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 04:30:03 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/10/06 04:30:03 [notice] 1#1: worker process 36 exited with code 0
+2022/10/06 04:30:03 [notice] 1#1: exit
+2022/10/06 04:30:04 [notice] 1#1: using the "epoll" event method
+2022/10/06 04:30:04 [notice] 1#1: nginx/1.23.1
+2022/10/06 04:30:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/06 04:30:04 [notice] 1#1: OS: Linux 5.15.57.1-microsoft-standard-WSL2
+2022/10/06 04:30:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/06 04:30:04 [notice] 1#1: start worker processes
+2022/10/06 04:30:04 [notice] 1#1: start worker process 30
+2022/10/06 04:30:04 [notice] 1#1: start worker process 31
+2022/10/06 04:30:04 [notice] 1#1: start worker process 32
+2022/10/06 04:30:04 [notice] 1#1: start worker process 33
+2022/10/06 04:30:04 [notice] 1#1: start worker process 34
+2022/10/06 04:30:04 [notice] 1#1: start worker process 35
+2022/10/06 04:30:04 [notice] 1#1: start worker process 36
+2022/10/06 04:30:04 [notice] 1#1: start worker process 37
+2022/10/06 04:30:04 [notice] 1#1: start worker process 38
+2022/10/06 04:30:04 [notice] 1#1: start worker process 39
+2022/10/06 04:30:04 [notice] 1#1: start worker process 40
+2022/10/06 04:30:04 [notice] 1#1: start worker process 41
+2022/10/06 04:30:04 [notice] 1#1: start worker process 42
+2022/10/06 04:30:04 [notice] 1#1: start worker process 43
+2022/10/06 04:30:04 [notice] 1#1: start worker process 44
+2022/10/06 04:30:04 [notice] 1#1: start worker process 45
+2022/10/06 06:10:52 [notice] 1#1: using the "epoll" event method
+2022/10/06 06:10:52 [notice] 1#1: nginx/1.23.1
+2022/10/06 06:10:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/06 06:10:52 [notice] 1#1: OS: Linux 5.15.57.1-microsoft-standard-WSL2
+2022/10/06 06:10:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/06 06:10:52 [notice] 1#1: start worker processes
+2022/10/06 06:10:52 [notice] 1#1: start worker process 30
+2022/10/06 06:10:52 [notice] 1#1: start worker process 31
+2022/10/06 06:10:52 [notice] 1#1: start worker process 32
+2022/10/06 06:10:52 [notice] 1#1: start worker process 33
+2022/10/06 06:10:52 [notice] 1#1: start worker process 34
+2022/10/06 06:10:52 [notice] 1#1: start worker process 35
+2022/10/06 06:10:52 [notice] 1#1: start worker process 36
+2022/10/06 06:10:52 [notice] 1#1: start worker process 37
+2022/10/06 06:10:52 [notice] 1#1: start worker process 38
+2022/10/06 06:10:52 [notice] 1#1: start worker process 39
+2022/10/06 06:10:52 [notice] 1#1: start worker process 40
+2022/10/06 06:10:52 [notice] 1#1: start worker process 41
+2022/10/06 06:10:52 [notice] 1#1: start worker process 42
+2022/10/06 06:10:52 [notice] 1#1: start worker process 43
+2022/10/06 06:10:52 [notice] 1#1: start worker process 44
+2022/10/06 06:10:52 [notice] 1#1: start worker process 45
+2022/10/06 06:15:00 [notice] 1#1: using the "epoll" event method
+2022/10/06 06:15:00 [notice] 1#1: nginx/1.23.1
+2022/10/06 06:15:00 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/06 06:15:00 [notice] 1#1: OS: Linux 5.15.57.1-microsoft-standard-WSL2
+2022/10/06 06:15:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/06 06:15:00 [notice] 1#1: start worker processes
+2022/10/06 06:15:00 [notice] 1#1: start worker process 30
+2022/10/06 06:15:00 [notice] 1#1: start worker process 31
+2022/10/06 06:15:00 [notice] 1#1: start worker process 32
+2022/10/06 06:15:00 [notice] 1#1: start worker process 33
+2022/10/06 06:15:00 [notice] 1#1: start worker process 34
+2022/10/06 06:15:00 [notice] 1#1: start worker process 35
+2022/10/06 06:15:00 [notice] 1#1: start worker process 36
+2022/10/06 06:15:00 [notice] 1#1: start worker process 37
+2022/10/06 06:15:00 [notice] 1#1: start worker process 38
+2022/10/06 06:15:00 [notice] 1#1: start worker process 39
+2022/10/06 06:15:00 [notice] 1#1: start worker process 40
+2022/10/06 06:15:00 [notice] 1#1: start worker process 41
+2022/10/06 06:15:00 [notice] 1#1: start worker process 42
+2022/10/06 06:15:00 [notice] 1#1: start worker process 43
+2022/10/06 06:15:00 [notice] 1#1: start worker process 44
+2022/10/06 06:15:00 [notice] 1#1: start worker process 45
+2022/10/06 06:19:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/06 06:19:19 [notice] 30#30: gracefully shutting down
+2022/10/06 06:19:19 [notice] 34#34: gracefully shutting down
+2022/10/06 06:19:19 [notice] 33#33: gracefully shutting down
+2022/10/06 06:19:19 [notice] 31#31: gracefully shutting down
+2022/10/06 06:19:19 [notice] 32#32: gracefully shutting down
+2022/10/06 06:19:19 [notice] 35#35: gracefully shutting down
+2022/10/06 06:19:19 [notice] 36#36: gracefully shutting down
+2022/10/06 06:19:19 [notice] 37#37: gracefully shutting down
+2022/10/06 06:19:19 [notice] 39#39: gracefully shutting down
+2022/10/06 06:19:19 [notice] 40#40: gracefully shutting down
+2022/10/06 06:19:19 [notice] 40#40: exiting
+2022/10/06 06:19:19 [notice] 38#38: gracefully shutting down
+2022/10/06 06:19:19 [notice] 41#41: gracefully shutting down
+2022/10/06 06:19:19 [notice] 42#42: gracefully shutting down
+2022/10/06 06:19:19 [notice] 43#43: gracefully shutting down
+2022/10/06 06:19:19 [notice] 44#44: gracefully shutting down
+2022/10/06 06:19:19 [notice] 44#44: exiting
+2022/10/06 06:19:19 [notice] 45#45: gracefully shutting down
+2022/10/06 06:19:19 [notice] 30#30: exiting
+2022/10/06 06:19:19 [notice] 34#34: exiting
+2022/10/06 06:19:19 [notice] 33#33: exiting
+2022/10/06 06:19:19 [notice] 31#31: exiting
+2022/10/06 06:19:19 [notice] 32#32: exiting
+2022/10/06 06:19:19 [notice] 35#35: exiting
+2022/10/06 06:19:19 [notice] 36#36: exiting
+2022/10/06 06:19:19 [notice] 37#37: exiting
+2022/10/06 06:19:19 [notice] 39#39: exiting
+2022/10/06 06:19:19 [notice] 40#40: exit
+2022/10/06 06:19:19 [notice] 38#38: exiting
+2022/10/06 06:19:19 [notice] 41#41: exiting
+2022/10/06 06:19:19 [notice] 42#42: exiting
+2022/10/06 06:19:19 [notice] 43#43: exiting
+2022/10/06 06:19:19 [notice] 44#44: exit
+2022/10/06 06:19:19 [notice] 45#45: exiting
+2022/10/06 06:19:19 [notice] 30#30: exit
+2022/10/06 06:19:19 [notice] 34#34: exit
+2022/10/06 06:19:19 [notice] 33#33: exit
+2022/10/06 06:19:19 [notice] 31#31: exit
+2022/10/06 06:19:19 [notice] 32#32: exit
+2022/10/06 06:19:19 [notice] 35#35: exit
+2022/10/06 06:19:19 [notice] 36#36: exit
+2022/10/06 06:19:19 [notice] 37#37: exit
+2022/10/06 06:19:19 [notice] 39#39: exit
+2022/10/06 06:19:19 [notice] 38#38: exit
+2022/10/06 06:19:19 [notice] 41#41: exit
+2022/10/06 06:19:19 [notice] 42#42: exit
+2022/10/06 06:19:19 [notice] 43#43: exit
+2022/10/06 06:19:19 [notice] 45#45: exit
+2022/10/06 06:19:19 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/10/06 06:19:19 [notice] 1#1: worker process 30 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 31 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 33 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 34 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 35 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 37 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 38 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 39 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 41 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 42 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 43 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 44 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 45 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 06:19:19 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/10/06 06:19:19 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/10/06 06:19:19 [notice] 1#1: worker process 32 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 06:19:19 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2022/10/06 06:19:19 [notice] 1#1: worker process 36 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: worker process 40 exited with code 0
+2022/10/06 06:19:19 [notice] 1#1: exit
+2022/10/06 06:19:22 [notice] 1#1: using the "epoll" event method
+2022/10/06 06:19:22 [notice] 1#1: nginx/1.23.1
+2022/10/06 06:19:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/06 06:19:22 [notice] 1#1: OS: Linux 5.15.57.1-microsoft-standard-WSL2
+2022/10/06 06:19:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/06 06:19:22 [notice] 1#1: start worker processes
+2022/10/06 06:19:22 [notice] 1#1: start worker process 30
+2022/10/06 06:19:22 [notice] 1#1: start worker process 31
+2022/10/06 06:19:22 [notice] 1#1: start worker process 32
+2022/10/06 06:19:22 [notice] 1#1: start worker process 33
+2022/10/06 06:19:22 [notice] 1#1: start worker process 34
+2022/10/06 06:19:22 [notice] 1#1: start worker process 35
+2022/10/06 06:19:22 [notice] 1#1: start worker process 36
+2022/10/06 06:19:22 [notice] 1#1: start worker process 37
+2022/10/06 06:19:22 [notice] 1#1: start worker process 38
+2022/10/06 06:19:22 [notice] 1#1: start worker process 39
+2022/10/06 06:19:22 [notice] 1#1: start worker process 40
+2022/10/06 06:19:22 [notice] 1#1: start worker process 41
+2022/10/06 06:19:22 [notice] 1#1: start worker process 42
+2022/10/06 06:19:22 [notice] 1#1: start worker process 43
+2022/10/06 06:19:22 [notice] 1#1: start worker process 44
+2022/10/06 06:19:22 [notice] 1#1: start worker process 45
+2022/10/06 06:34:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/06 06:34:32 [notice] 30#30: gracefully shutting down
+2022/10/06 06:34:32 [notice] 30#30: exiting
+2022/10/06 06:34:32 [notice] 31#31: gracefully shutting down
+2022/10/06 06:34:32 [notice] 32#32: gracefully shutting down
+2022/10/06 06:34:32 [notice] 33#33: gracefully shutting down
+2022/10/06 06:34:32 [notice] 33#33: exiting
+2022/10/06 06:34:32 [notice] 34#34: gracefully shutting down
+2022/10/06 06:34:32 [notice] 35#35: gracefully shutting down
+2022/10/06 06:34:32 [notice] 36#36: gracefully shutting down
+2022/10/06 06:34:32 [notice] 38#38: gracefully shutting down
+2022/10/06 06:34:32 [notice] 37#37: gracefully shutting down
+2022/10/06 06:34:32 [notice] 39#39: gracefully shutting down
+2022/10/06 06:34:32 [notice] 41#41: gracefully shutting down
+2022/10/06 06:34:32 [notice] 40#40: gracefully shutting down
+2022/10/06 06:34:32 [notice] 42#42: gracefully shutting down
+2022/10/06 06:34:32 [notice] 44#44: gracefully shutting down
+2022/10/06 06:34:32 [notice] 43#43: gracefully shutting down
+2022/10/06 06:34:32 [notice] 45#45: gracefully shutting down
+2022/10/06 06:34:32 [notice] 30#30: exit
+2022/10/06 06:34:32 [notice] 31#31: exiting
+2022/10/06 06:34:32 [notice] 32#32: exiting
+2022/10/06 06:34:32 [notice] 33#33: exit
+2022/10/06 06:34:32 [notice] 34#34: exiting
+2022/10/06 06:34:32 [notice] 35#35: exiting
+2022/10/06 06:34:32 [notice] 36#36: exiting
+2022/10/06 06:34:32 [notice] 38#38: exiting
+2022/10/06 06:34:32 [notice] 37#37: exiting
+2022/10/06 06:34:32 [notice] 39#39: exiting
+2022/10/06 06:34:32 [notice] 41#41: exiting
+2022/10/06 06:34:32 [notice] 40#40: exiting
+2022/10/06 06:34:32 [notice] 42#42: exiting
+2022/10/06 06:34:32 [notice] 44#44: exiting
+2022/10/06 06:34:32 [notice] 43#43: exiting
+2022/10/06 06:34:32 [notice] 45#45: exiting
+2022/10/06 06:34:32 [notice] 31#31: exit
+2022/10/06 06:34:32 [notice] 32#32: exit
+2022/10/06 06:34:32 [notice] 34#34: exit
+2022/10/06 06:34:32 [notice] 35#35: exit
+2022/10/06 06:34:32 [notice] 36#36: exit
+2022/10/06 06:34:32 [notice] 38#38: exit
+2022/10/06 06:34:32 [notice] 37#37: exit
+2022/10/06 06:34:32 [notice] 39#39: exit
+2022/10/06 06:34:32 [notice] 41#41: exit
+2022/10/06 06:34:32 [notice] 40#40: exit
+2022/10/06 06:34:32 [notice] 42#42: exit
+2022/10/06 06:34:32 [notice] 44#44: exit
+2022/10/06 06:34:32 [notice] 43#43: exit
+2022/10/06 06:34:32 [notice] 45#45: exit
+2022/10/06 06:34:32 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/10/06 06:34:32 [notice] 1#1: worker process 30 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: worker process 32 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: worker process 34 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: worker process 38 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: worker process 43 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 06:34:32 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2022/10/06 06:34:32 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/10/06 06:34:32 [notice] 1#1: worker process 33 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: worker process 36 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: worker process 41 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: worker process 45 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 06:34:32 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2022/10/06 06:34:32 [notice] 1#1: worker process 31 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: worker process 35 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: worker process 39 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: worker process 40 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: worker process 44 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 06:34:32 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/10/06 06:34:32 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/10/06 06:34:32 [notice] 1#1: worker process 37 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/06 06:34:32 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2022/10/06 06:34:32 [notice] 1#1: worker process 42 exited with code 0
+2022/10/06 06:34:32 [notice] 1#1: exit
+2023/06/19 00:51:56 [notice] 1#1: using the "epoll" event method
+2023/06/19 00:51:56 [notice] 1#1: nginx/1.25.1
+2023/06/19 00:51:56 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/06/19 00:51:56 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/06/19 00:51:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/19 00:51:56 [notice] 1#1: start worker processes
+2023/06/19 00:51:56 [notice] 1#1: start worker process 28
+2023/06/19 00:51:56 [notice] 1#1: start worker process 29
+2023/06/19 00:51:56 [notice] 1#1: start worker process 30
+2023/06/19 00:51:56 [notice] 1#1: start worker process 31
+2023/06/19 00:51:56 [notice] 1#1: start worker process 32
+2023/06/19 00:51:56 [notice] 1#1: start worker process 33
+2023/06/19 00:51:56 [notice] 1#1: start worker process 34
+2023/06/19 00:51:56 [notice] 1#1: start worker process 35
+2023/06/19 00:51:56 [notice] 1#1: start worker process 36
+2023/06/19 00:51:56 [notice] 1#1: start worker process 37
+2023/06/19 00:51:56 [notice] 1#1: start worker process 38
+2023/06/19 00:51:56 [notice] 1#1: start worker process 39
+2023/06/19 00:51:56 [notice] 1#1: start worker process 40
+2023/06/19 00:51:56 [notice] 1#1: start worker process 41
+2023/06/19 00:51:56 [notice] 1#1: start worker process 42
+2023/06/19 00:51:56 [notice] 1#1: start worker process 43
+2023/06/19 00:55:25 [notice] 1#1: using the "epoll" event method
+2023/06/19 00:55:25 [notice] 1#1: nginx/1.25.1
+2023/06/19 00:55:25 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/06/19 00:55:25 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/06/19 00:55:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/19 00:55:25 [notice] 1#1: start worker processes
+2023/06/19 00:55:25 [notice] 1#1: start worker process 28
+2023/06/19 00:55:25 [notice] 1#1: start worker process 29
+2023/06/19 00:55:25 [notice] 1#1: start worker process 30
+2023/06/19 00:55:25 [notice] 1#1: start worker process 31
+2023/06/19 00:55:25 [notice] 1#1: start worker process 32
+2023/06/19 00:55:25 [notice] 1#1: start worker process 33
+2023/06/19 00:55:25 [notice] 1#1: start worker process 34
+2023/06/19 00:55:25 [notice] 1#1: start worker process 35
+2023/06/19 00:55:25 [notice] 1#1: start worker process 36
+2023/06/19 00:55:25 [notice] 1#1: start worker process 37
+2023/06/19 00:55:25 [notice] 1#1: start worker process 38
+2023/06/19 00:55:25 [notice] 1#1: start worker process 39
+2023/06/19 00:55:25 [notice] 1#1: start worker process 40
+2023/06/19 00:55:25 [notice] 1#1: start worker process 41
+2023/06/19 00:55:25 [notice] 1#1: start worker process 42
+2023/06/19 00:55:25 [notice] 1#1: start worker process 43
+2023/12/21 00:19:21 [notice] 1#1: using the "epoll" event method
+2023/12/21 00:19:21 [notice] 1#1: nginx/1.25.3
+2023/12/21 00:19:21 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/21 00:19:21 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/21 00:19:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 00:19:21 [notice] 1#1: start worker processes
+2023/12/21 00:19:21 [notice] 1#1: start worker process 28
+2023/12/21 00:19:21 [notice] 1#1: start worker process 29
+2023/12/21 00:19:21 [notice] 1#1: start worker process 30
+2023/12/21 00:19:21 [notice] 1#1: start worker process 31
+2023/12/21 00:19:21 [notice] 1#1: start worker process 32
+2023/12/21 00:19:21 [notice] 1#1: start worker process 33
+2023/12/21 00:19:21 [notice] 1#1: start worker process 34
+2023/12/21 00:19:21 [notice] 1#1: start worker process 35
+2023/12/21 01:12:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 01:12:00 [notice] 31#31: gracefully shutting down
+2023/12/21 01:12:00 [notice] 30#30: gracefully shutting down
+2023/12/21 01:12:00 [notice] 28#28: gracefully shutting down
+2023/12/21 01:12:00 [notice] 29#29: gracefully shutting down
+2023/12/21 01:12:00 [notice] 34#34: gracefully shutting down
+2023/12/21 01:12:00 [notice] 32#32: gracefully shutting down
+2023/12/21 01:12:00 [notice] 35#35: gracefully shutting down
+2023/12/21 01:12:00 [notice] 33#33: gracefully shutting down
+2023/12/21 01:12:00 [notice] 31#31: exiting
+2023/12/21 01:12:00 [notice] 28#28: exiting
+2023/12/21 01:12:00 [notice] 29#29: exiting
+2023/12/21 01:12:00 [notice] 30#30: exiting
+2023/12/21 01:12:00 [notice] 33#33: exiting
+2023/12/21 01:12:00 [notice] 34#34: exiting
+2023/12/21 01:12:00 [notice] 30#30: exit
+2023/12/21 01:12:00 [notice] 32#32: exiting
+2023/12/21 01:12:00 [notice] 31#31: exit
+2023/12/21 01:12:00 [notice] 28#28: exit
+2023/12/21 01:12:00 [notice] 29#29: exit
+2023/12/21 01:12:00 [notice] 35#35: exiting
+2023/12/21 01:12:00 [notice] 33#33: exit
+2023/12/21 01:12:00 [notice] 34#34: exit
+2023/12/21 01:12:00 [notice] 32#32: exit
+2023/12/21 01:12:00 [notice] 35#35: exit
+2023/12/21 01:12:00 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/21 01:12:00 [notice] 1#1: worker process 28 exited with code 0
+2023/12/21 01:12:00 [notice] 1#1: worker process 29 exited with code 0
+2023/12/21 01:12:00 [notice] 1#1: worker process 30 exited with code 0
+2023/12/21 01:12:00 [notice] 1#1: worker process 31 exited with code 0
+2023/12/21 01:12:00 [notice] 1#1: worker process 32 exited with code 0
+2023/12/21 01:12:00 [notice] 1#1: worker process 33 exited with code 0
+2023/12/21 01:12:00 [notice] 1#1: worker process 35 exited with code 0
+2023/12/21 01:12:00 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 01:12:00 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/12/21 01:12:00 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/21 01:12:00 [notice] 1#1: worker process 34 exited with code 0
+2023/12/21 01:12:00 [notice] 1#1: exit
+2023/12/21 01:34:53 [notice] 1#1: using the "epoll" event method
+2023/12/21 01:34:53 [notice] 1#1: nginx/1.25.3
+2023/12/21 01:34:53 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/21 01:34:53 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/21 01:34:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 01:34:53 [notice] 1#1: start worker processes
+2023/12/21 01:34:53 [notice] 1#1: start worker process 28
+2023/12/21 01:34:53 [notice] 1#1: start worker process 29
+2023/12/21 01:34:53 [notice] 1#1: start worker process 30
+2023/12/21 01:34:53 [notice] 1#1: start worker process 31
+2023/12/21 01:34:53 [notice] 1#1: start worker process 32
+2023/12/21 01:34:53 [notice] 1#1: start worker process 33
+2023/12/21 01:34:53 [notice] 1#1: start worker process 34
+2023/12/21 01:34:53 [notice] 1#1: start worker process 35
+2023/12/21 02:41:11 [notice] 1#1: using the "epoll" event method
+2023/12/21 02:41:11 [notice] 1#1: nginx/1.25.3
+2023/12/21 02:41:11 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/21 02:41:11 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/21 02:41:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 02:41:11 [notice] 1#1: start worker processes
+2023/12/21 02:41:11 [notice] 1#1: start worker process 28
+2023/12/21 02:41:11 [notice] 1#1: start worker process 29
+2023/12/21 02:41:11 [notice] 1#1: start worker process 30
+2023/12/21 02:41:11 [notice] 1#1: start worker process 31
+2023/12/21 02:41:11 [notice] 1#1: start worker process 32
+2023/12/21 02:41:11 [notice] 1#1: start worker process 33
+2023/12/21 02:41:11 [notice] 1#1: start worker process 34
+2023/12/21 02:41:11 [notice] 1#1: start worker process 35
+2023/12/21 02:55:07 [notice] 1#1: using the "epoll" event method
+2023/12/21 02:55:07 [notice] 1#1: nginx/1.25.3
+2023/12/21 02:55:07 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/21 02:55:07 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/21 02:55:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 02:55:07 [notice] 1#1: start worker processes
+2023/12/21 02:55:07 [notice] 1#1: start worker process 28
+2023/12/21 02:55:07 [notice] 1#1: start worker process 29
+2023/12/21 02:55:07 [notice] 1#1: start worker process 30
+2023/12/21 02:55:07 [notice] 1#1: start worker process 31
+2023/12/21 02:55:07 [notice] 1#1: start worker process 32
+2023/12/21 02:55:07 [notice] 1#1: start worker process 33
+2023/12/21 02:55:07 [notice] 1#1: start worker process 34
+2023/12/21 02:55:07 [notice] 1#1: start worker process 35
+2023/12/21 04:44:15 [notice] 1#1: using the "epoll" event method
+2023/12/21 04:44:15 [notice] 1#1: nginx/1.25.3
+2023/12/21 04:44:15 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/21 04:44:15 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/21 04:44:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 04:44:15 [notice] 1#1: start worker processes
+2023/12/21 04:44:15 [notice] 1#1: start worker process 28
+2023/12/21 04:44:15 [notice] 1#1: start worker process 29
+2023/12/21 04:44:15 [notice] 1#1: start worker process 30
+2023/12/21 04:44:15 [notice] 1#1: start worker process 31
+2023/12/21 04:44:15 [notice] 1#1: start worker process 32
+2023/12/21 04:44:15 [notice] 1#1: start worker process 33
+2023/12/21 04:44:15 [notice] 1#1: start worker process 34
+2023/12/21 04:44:15 [notice] 1#1: start worker process 35
+2023/12/21 04:53:21 [notice] 1#1: using the "epoll" event method
+2023/12/21 04:53:21 [notice] 1#1: nginx/1.25.3
+2023/12/21 04:53:21 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/21 04:53:21 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/21 04:53:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 04:53:21 [notice] 1#1: start worker processes
+2023/12/21 04:53:21 [notice] 1#1: start worker process 28
+2023/12/21 04:53:21 [notice] 1#1: start worker process 29
+2023/12/21 04:53:21 [notice] 1#1: start worker process 30
+2023/12/21 04:53:21 [notice] 1#1: start worker process 31
+2023/12/21 04:53:21 [notice] 1#1: start worker process 32
+2023/12/21 04:53:21 [notice] 1#1: start worker process 33
+2023/12/21 04:53:21 [notice] 1#1: start worker process 34
+2023/12/21 04:53:21 [notice] 1#1: start worker process 35
+2023/12/21 05:32:24 [notice] 1#1: using the "epoll" event method
+2023/12/21 05:32:24 [notice] 1#1: nginx/1.25.3
+2023/12/21 05:32:24 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/21 05:32:24 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/21 05:32:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 05:32:24 [notice] 1#1: start worker processes
+2023/12/21 05:32:24 [notice] 1#1: start worker process 28
+2023/12/21 05:32:24 [notice] 1#1: start worker process 29
+2023/12/21 05:32:24 [notice] 1#1: start worker process 30
+2023/12/21 05:32:24 [notice] 1#1: start worker process 31
+2023/12/21 05:32:24 [notice] 1#1: start worker process 32
+2023/12/21 05:32:24 [notice] 1#1: start worker process 33
+2023/12/21 05:32:24 [notice] 1#1: start worker process 34
+2023/12/21 05:32:24 [notice] 1#1: start worker process 35
+2023/12/21 06:31:51 [error] 28#28: *16 connect() failed (113: No route to host) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "OPTIONS /api/register HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001", referrer: "http://localhost:7000/"
+2023/12/21 06:46:01 [notice] 1#1: using the "epoll" event method
+2023/12/21 06:46:01 [notice] 1#1: nginx/1.25.3
+2023/12/21 06:46:01 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/21 06:46:01 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/21 06:46:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 06:46:01 [notice] 1#1: start worker processes
+2023/12/21 06:46:01 [notice] 1#1: start worker process 28
+2023/12/21 06:46:01 [notice] 1#1: start worker process 29
+2023/12/21 06:46:01 [notice] 1#1: start worker process 30
+2023/12/21 06:46:01 [notice] 1#1: start worker process 31
+2023/12/21 06:46:01 [notice] 1#1: start worker process 32
+2023/12/21 06:46:01 [notice] 1#1: start worker process 33
+2023/12/21 06:46:01 [notice] 1#1: start worker process 34
+2023/12/21 06:46:01 [notice] 1#1: start worker process 35
+2023/12/21 06:47:50 [notice] 1#1: using the "epoll" event method
+2023/12/21 06:47:50 [notice] 1#1: nginx/1.25.3
+2023/12/21 06:47:50 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/21 06:47:50 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/21 06:47:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 06:47:50 [notice] 1#1: start worker processes
+2023/12/21 06:47:50 [notice] 1#1: start worker process 28
+2023/12/21 06:47:50 [notice] 1#1: start worker process 29
+2023/12/21 06:47:50 [notice] 1#1: start worker process 30
+2023/12/21 06:47:50 [notice] 1#1: start worker process 31
+2023/12/21 06:47:50 [notice] 1#1: start worker process 32
+2023/12/21 06:47:50 [notice] 1#1: start worker process 33
+2023/12/21 06:47:50 [notice] 1#1: start worker process 34
+2023/12/21 06:47:50 [notice] 1#1: start worker process 35
+2023/12/21 07:10:25 [error] 34#34: *14 connect() failed (113: No route to host) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 07:28:58 [error] 28#28: *21 connect() failed (113: No route to host) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 07:29:02 [error] 28#28: *24 connect() failed (113: No route to host) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "OPTIONS /api/register HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001", referrer: "http://localhost:7000/"
+2023/12/21 08:12:35 [error] 29#29: *74 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:12:36 [error] 29#29: *74 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:12:40 [error] 29#29: *78 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "OPTIONS /api/register HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001", referrer: "http://localhost:7000/"
+2023/12/21 08:12:46 [error] 29#29: *74 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:16:05 [error] 30#30: *81 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:18:06 [error] 30#30: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:18:07 [error] 30#30: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:16 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:17 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:17 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:18 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:18 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:23 [error] 30#30: *95 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "OPTIONS /api/register HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001", referrer: "http://localhost:7000/"
+2023/12/21 08:21:28 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:49 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:50 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:50 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:50 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:50 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:51 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
+2023/12/21 08:21:59 [error] 30#30: *95 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "OPTIONS /api/register HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001", referrer: "http://localhost:7000/"
+2023/12/21 08:22:43 [error] 30#30: *89 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost:6001"
